@@ -5,7 +5,8 @@ the 2026 CMS coding changes for lower-extremity revascularization (LER) procedur
 flags under-coded cases with dollar-level deltas, and keeps medical coders in
 control — every recommendation reviewed, every dollar traceable.
 
-<!-- drag LER-DeltaGuard-Product-Walkthrough.mp4 onto this line -->
+https://github.com/user-attachments/assets/f745c774-cb11-4679-876f-d0418459aee8
+
 
 ## How it works
 1. **Upload** — hospital exports billing data + operative notes as CSV
@@ -24,4 +25,4 @@ Serverless AWS: Lambda, S3, API Gateway — projected compute costs cut ~90% vs.
 provisioned design. 
 
 ## Built by
-Colin Fehlinger — https://www.linkedin.com/in/colin-fehlinger/ · colin.fehlinger@gmail.com
+Colin Fehlinger — https://www.linkedin.com/in/colin-fehlinger · colin.fehlinger@gmail.com
