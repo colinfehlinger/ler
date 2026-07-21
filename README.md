@@ -1,2 +1,28 @@
-# ler
-AI revenue assurance for hospital billing — scans operative notes against 2026 CMS coding changes, flags under-coded procedures with dollar-level deltas, audit-ready exports. Serverless AWS.
+# LER DeltaGuard
+
+AI revenue assurance for hospital billing. DeltaGuard scans operative notes against
+the 2026 CMS coding changes for lower-extremity revascularization (LER) procedures,
+flags under-coded cases with dollar-level deltas, and keeps medical coders in
+control — every recommendation reviewed, every dollar traceable.
+
+<!-- drag LER-DeltaGuard-Product-Walkthrough.mp4 onto this line -->
+
+## How it works
+1. **Upload** — hospital exports billing data + operative notes as CSV
+2. **Scan** — the engine reads op notes for coding patterns against the 2026 LER framework
+3. **Review** — flags surface with suggested CPT direction, projected delta, and confidence; coders accept or reject with comments
+4. **Recover** — audit-ready export with exact dollar amounts and full reasoning trail
+
+## Results
+- 67 cases validated · 0 false positives · 0 missed catches
+- $17,910 projected recovery on the stress-test dataset
+- Identified via provider interviews + CMS data analysis (~$480M hospital revenue gap)
+- 3rd place, Temple University startup pitch competition
+
+## Architecture
+Serverless AWS: Lambda, S3, API Gateway — projected compute costs cut ~90% vs. a
+provisioned design. Front end: [your framework]. [One line on how the AI analysis
+is orchestrated.]
+
+## Built by
+Colin Fehlinger — [LinkedIn](your-url) · colin.fehlinger@gmail.com
