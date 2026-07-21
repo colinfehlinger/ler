@@ -21,8 +21,7 @@ control — every recommendation reviewed, every dollar traceable.
 
 ## Architecture
 Serverless AWS: Lambda, S3, API Gateway — projected compute costs cut ~90% vs. a
-provisioned design. Front end: [your framework]. [One line on how the AI analysis
-is orchestrated.]
+provisioned design. 
 
 ## Built by
-Colin Fehlinger — [LinkedIn](your-url) · colin.fehlinger@gmail.com
+Colin Fehlinger — https://www.linkedin.com/in/colin-fehlinger/ · colin.fehlinger@gmail.com
